@@ -23,7 +23,7 @@
 $string['pluginname'] = 'Eduardo ATV 4';
 $string['col_coursename'] = 'Nome do Curso';
 $string['col_status'] = 'Estado';
-$string['chart_visible'] = 'Visível';
-$string['chart_invisible'] = 'Invisível';
+$string['chart_visible'] = 'Visível %';
+$string['chart_invisible'] = 'Invisível %';
 $string['chart_stacked'] = 'Barra Empilhado';
 $string['chart_bar'] = 'Barra Comum';
