@@ -57,7 +57,11 @@ foreach ($courses as $course) {
     /**
      * concatena os dados no final da tabela
      */
-    $table->data[] = array($course->fullname, $course->visible);
+    $table->data[] = array(
+        $course->fullname,
+        $course->visible  == 1 ?
+            get_string('chart_visible', 'report_eduardoatv4') : get_string('chart_invisible', 'report_eduardoatv4')
+    );
 
     /**
      * Contador de couses invisiveis
